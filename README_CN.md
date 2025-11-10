@@ -5,10 +5,10 @@
 
 <div class="is-size-5 publication-authors" align="center">
   <span class="author-block">
-    <a href="" target="_blank">吴芮葭</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+    <a href="" target="_blank">吴芮葭</a><sup>1,2</sup><sup>†</sup>,&nbsp;
   </span>
   <span class="author-block">
-    <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ" target="_blank">陈平</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+    <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ" target="_blank">陈平</a><sup>1,2</sup><sup>†</sup>,&nbsp;
   </span>
   <span class="author-block">
     <a href="https://muzishen.github.io/" target="_blank">沈飞</a><sup>3</sup>,&nbsp;
@@ -27,7 +27,7 @@
   </span>
   <br>
   <span class="author-block">
-    <a href="https://github.com/FangGet" target="_blank">赵放</a><sup>1,2</sup><sup>†</sup>,&nbsp;
+    <a href="https://github.com/FangGet" target="_blank">赵放</a><sup>1,2</sup><sup>*</sup>,&nbsp;
   </span>
   <span class="author-block">
     <a href="https://scholar.google.com/citations?user=CFUQLCAAAAAJ&hl=en" target="_blank">王恺</a><sup>1,2</sup>,&nbsp;
@@ -44,7 +44,7 @@
 </div>
 
 <div class="is-size-5 publication-authors" align="center">
-  (* 共同一作. † 通讯作者.)
+  († 共同一作. * 通讯作者.)
 </div>
 
 <h5 align="center">

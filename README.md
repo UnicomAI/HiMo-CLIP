@@ -6,10 +6,10 @@
 
 <div class="is-size-5 publication-authors" align="center">
   <span class="author-block">
-    <a href="" target="_blank">Ruijia Wu</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+    <a href="" target="_blank">Ruijia Wu</a><sup>1,2</sup><sup>†</sup>,&nbsp;
   </span>
   <span class="author-block">
-    <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ" target="_blank">Ping Chen</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+    <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ" target="_blank">Ping Chen</a><sup>1,2</sup><sup>†</sup>,&nbsp;
   </span>
   <span class="author-block">
     <a href="https://muzishen.github.io/" target="_blank">Fei Shen</a><sup>3</sup>,&nbsp;
@@ -28,13 +28,13 @@
   </span>
   <br>
   <span class="author-block">
-    <a href="https://github.com/FangGet" target="_blank">Fang Zhao</a><sup>1,2</sup><sup>†</sup>,&nbsp;
+    <a href="https://github.com/FangGet" target="_blank">Fang Zhao</a><sup>1,2</sup><sup>*</sup>,&nbsp;
   </span>
   <span class="author-block">
     <a href="https://scholar.google.com/citations?user=CFUQLCAAAAAJ&hl=en" target="_blank">Kai Wang</a><sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
-    <a href="https://scholar.google.com.hk/citations?user=kCC2oKwAAAAJ&hl=zh-CN&oi=ao" target="_blank">Shiguo Lian</a><sup>1,2</sup>
+    <a href="https://scholar.google.com.hk/citations?user=kCC2oKwAAAAJ&hl=zh-CN&oi=ao" target="_blank">Shiguo Lian</a><sup>1,2</sup><sup>*</sup>
   </span>
 </div>
 
@@ -45,7 +45,7 @@
 </div>
 
 <div class="is-size-5 publication-authors" align="center">
-  (* Equal contribution. † Corresponding author.)
+  († Equal contribution. * Corresponding author.)
 </div>
 
 <h5 align="center">
