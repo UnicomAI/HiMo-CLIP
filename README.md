@@ -1,43 +1,69 @@
-<!-- Open Graph Meta Tags (GitHub README 不支持，已移除) -->
 
-# HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment
+📚English | <a href="./README_CN.md">📚中文阅读 </a> 
 
-✨ **AAAI 2026 Oral** ✨
 
----
+# <img src="./static/images/logo.png" style="width:auto; height:35px;">[AAAI 2026 Oral] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment
 
-## Authors
+<div class="is-size-5 publication-authors" align="center">
+  <span class="author-block">
+    <a href="" target="_blank">Ruijia Wu</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ" target="_blank">Ping Chen</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    <a href="https://muzishen.github.io/" target="_blank">Fei Shen</a><sup>3</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    Shaoan Zhao<sup>1,2</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    <a href="https://github.com/joelulu/" target="_blank">Huanlin Gao</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    Ting Lu<sup>1,2</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?hl=en&user=L4OXOs0AAAAJ" target="_blank">Zhaoxiang Liu</a><sup>1,2</sup>
+  </span>
+  <br>
+  <span class="author-block">
+    <a href="https://github.com/FangGet" target="_blank">Fang Zhao</a><sup>1,2</sup><sup>†</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com/citations?user=CFUQLCAAAAAJ&hl=en" target="_blank">Kai Wang</a><sup>1,2</sup>,&nbsp;
+  </span>
+  <span class="author-block">
+    <a href="https://scholar.google.com.hk/citations?user=kCC2oKwAAAAJ&hl=zh-CN&oi=ao" target="_blank">Shiguo Lian</a><sup>1,2</sup>
+  </span>
+</div>
 
-*   **Ruijia Wu**<sup>1,2</sup><sup>∗</sup>
-*   **Ping Chen**<sup>1,2</sup><sup>∗</sup> ([Google Scholar](https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ))
-*   **Fei Shen**<sup>3</sup> ([Google Scholar](https://scholar.google.com.hk/citations?user=wqvr28MAAAAJ&hl=zh-TW))
-*   **Shaoan Zhao**<sup>1,2</sup>
-*   **Qiang Hui**<sup>1,2</sup>
-*   **Huanlin Gao**<sup>1,2</sup> ([GitHub](https://github.com/joelulu))
-*   **Ting Lu**<sup>1,2</sup>
-*   **Zhaoxiang Liu**<sup>1,2</sup> ([Google Scholar](https://scholar.google.com/citations?hl=en&user=L4OXOs0AAAAJ))
-*   **Fang Zhao**<sup>1,2</sup><sup>†</sup> ([GitHub](https://github.com/FangGet))
-*   **Kai Wang**<sup>1,2</sup> ([Google Scholar](https://scholar.google.com/citations?user=CFUQLCAAAAAJ&hl=en))
-*   **Shiguo Lian**<sup>1,2</sup><sup>†</sup> ([Google Scholar](https://scholar.google.com.hk/citations?user=kCC2oKwAAAAJ&hl=zh-CN&oi=ao))
+<div class="is-size-5 publication-authors" align="center">
+  <span class="author-block"><sup>1</sup>Data Science & Artificial Intelligence Research Institute, China Unicom,&nbsp;</span><br>
+  <span class="author-block"><sup>2</sup>Unicom Data Intelligence, China Unicom</span>
+  <span class="author-block"><sup>3</sup>National University of Singapore</span>
+</div>
 
-<sup>1</sup>Data Science & Artificial Intelligence Research Institute, China Unicom,  
-<sup>2</sup>Unicom Data Intelligence, China Unicom,  
-<sup>3</sup>National University of Singapore
+<div class="is-size-5 publication-authors" align="center">
+  (* Equal contribution. † Corresponding author.)
+</div>
 
-(* Equal contribution. † Corresponding author.)
+<h5 align="center">
+<a href="https://unicomai.github.io/HiMo-CLIP/" target="_blank">
+  <img src="https://img.shields.io/badge/Project-Website-blue.svg" alt="Project Page">
+</a>
+<!-- <a href="" target="_blank">
+  <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper">
+</a> -->
+</a>
+<a href="./LICENSE" target="_blank">
+  <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License">
+</a>
+<a href="https://github.com/UnicomAI/LeMiCa/stargazers" target="_blank">
+  <img src="https://img.shields.io/github/stars/UnicomAI/HiMo-CLIP.svg?style=social" alt="GitHub Stars">
+</a>
+</h5>
 
----
-
-## Links
-
-[![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/UnicomAI/HiMo-CLIP)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobat)]()
-[![Model](https://img.shields.io/badge/Model-Hugging%20Face-green?logo=huggingface)]()
-[![Dataset](https://img.shields.io/badge/Dataset-Data-orange?logo=googlecloud)]()
-[![Project Page](https://img.shields.io/badge/Project%20Page-Website-lightgrey?logo=firefox)](https://unicomai.github.io/HiMo-CLIP)
-[![BibTeX](https://img.shields.io/badge/BibTeX-Cite-blue)](#bibtex)
-
----
 
 ## Motivation
 
@@ -53,8 +79,6 @@ These limitations motivate the design of **HiMo-CLIP**, which explicitly models 
 
 *(a) Text descriptions of an image often grow in semantic richness, from short to long, by adding more visual details. (b) However, existing models, even those tailored for long-form text, often fail to preserve semantic monotonicity, overlooking this essential principle when scaling to richer descriptions. In contrast, HiMo-CLIP maintains alignment consistency across text granularities, effectively addressing this overlooked yet critical challenge. (Note: FineLIP’s similarity exceeds 1 due to its customized test-time scaling.)*
 
----
-
 ## Abstract
 
 Contrastive vision-language models like CLIP have achieved impressive results in image-text retrieval by aligning image and text representations in a shared embedding space. However, these models often treat text as flat sequences, limiting their ability to handle complex, compositional, and long-form descriptions. In particular, they fail to capture two essential properties of language: semantic hierarchy, which reflects the multi-level compositional structure of text, and semantic monotonicity, where richer descriptions should result in stronger alignment with visual content.
@@ -62,8 +86,6 @@ Contrastive vision-language models like CLIP have achieved impressive results in
 To address these limitations, we propose HiMo-CLIP, a representation-level framework that enhances CLIP-style models without modifying the encoder architecture. HiMo-CLIP introduces two key components: a hierarchical decomposition (HiDe) module that extracts latent semantic components from long-form text via in-batch PCA, enabling flexible, batch-aware alignment across different semantic granularities, and a monotonicity-aware contrastive loss (MoLo) that jointly aligns global and component-level representations, encouraging the model to internalize semantic ordering and alignment strength as a function of textual completeness.
 
 These components work in concert to produce structured, cognitively-aligned cross-modal representations. Experiments on multiple image-text retrieval benchmarks show that HiMo-CLIP consistently outperforms strong baselines, particularly under long or compositional descriptions.
-
----
 
 ## Methods
 
@@ -79,7 +101,6 @@ Both modules operate purely in the representation space, avoiding architectural 
 
 ![Framework Figure](./static/images/framework.png)
 
----
 
 ## Performance
 
@@ -95,5 +116,19 @@ Figure 3 visualizes HiMo@5 trends on HiMo-Docci, where HiMo-CLIP consistently ma
 ![Evaluation Figure 4](./static/images/eval_fig4.png)
 ![Evaluation Figure 5](./static/images/eval_fig5.png)
 
----
+## License
+The majority of this project is released under the **Apache 2.0 license** as found in the [LICENSE](./LICENSE) file.
 
+
+## 📖 Citation
+If you find **LeMiCa** useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
+
+```bibtex
+  @inproceedings{,
+    title     = {HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment},
+    author    = {Ruijia Wu and Ping Chen and Fei Shen and Shaoan Zhao and Qiang Hui and Huanlin Gao and Ting Lu and Zhaoxiang Liu and Fang Zhao and Kai Wang and Shiguo Lian},
+    journal = {AAAI},
+    year      = {2025},
+    url       = {}
+  }
+```
