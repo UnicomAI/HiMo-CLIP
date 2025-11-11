@@ -6,7 +6,7 @@
 
 <div class="is-size-5 publication-authors" align="center">
   <span class="author-block">
-    <a href="" target="_blank">Ruijia Wu</a><sup>1,2</sup><sup>†</sup>,&nbsp;
+    <a href="https://scholar.google.com/citations?user=tG7Y6OQAAAAJ&hl=zh-CN&oi=ao" target="_blank">Ruijia Wu</a><sup>1,2</sup><sup>†</sup>,&nbsp;
   </span>
   <span class="author-block">
     <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&user=gpNOW2UAAAAJ" target="_blank">Ping Chen</a><sup>1,2</sup><sup>†</sup>,&nbsp;
@@ -124,11 +124,13 @@ The majority of this project is released under the **Apache 2.0 license** as fou
 If you find **LeMiCa** useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
 
 ```bibtex
-  @inproceedings{,
-    title     = {HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment},
-    author    = {Ruijia Wu and Ping Chen and Fei Shen and Shaoan Zhao and Qiang Hui and Huanlin Gao and Ting Lu and Zhaoxiang Liu and Fang Zhao and Kai Wang and Shiguo Lian},
-    journal = {AAAI},
-    year      = {2025},
-    url       = {}
-  }
+@misc{wu2025himoclipmodelingsemantichierarchy,
+      title={HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment}, 
+      author={Ruijia Wu and Ping Chen and Fei Shen and Shaoan Zhao and Qiang Hui and Huanlin Gao and Ting Lu and Zhaoxiang Liu and Fang Zhao and Kai Wang and Shiguo Lian},
+      year={2025},
+      eprint={2511.06653},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.06653}, 
+}
 ```
