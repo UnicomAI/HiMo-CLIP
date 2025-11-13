@@ -17,7 +17,7 @@
     赵绍安<sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
-    <a href="https://github.com/joelulu/" target="_blank">高焕霖</a><sup>1,2</sup><sup>*</sup>,&nbsp;
+    <a href="https://github.com/joelulu/" target="_blank">高焕霖</a><sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
     Ting Lu<sup>1,2</sup>,&nbsp;
@@ -33,7 +33,7 @@
     <a href="https://scholar.google.com/citations?user=CFUQLCAAAAAJ&hl=en" target="_blank">王恺</a><sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
-    <a href="https://scholar.google.com.hk/citations?user=kCC2oKwAAAAJ&hl=zh-CN&oi=ao" target="_blank">廉士国</a><sup>1,2</sup>
+    <a href="https://scholar.google.com.hk/citations?user=kCC2oKwAAAAJ&hl=zh-CN&oi=ao" target="_blank">廉士国</a><sup>1,2</sup><sup>*</sup>
   </span>
 </div>
 
@@ -51,9 +51,9 @@
 <a href="https://unicomai.github.io/HiMo-CLIP/" target="_blank">
   <img src="https://img.shields.io/badge/Project-Website-blue.svg" alt="Project Page">
 </a>
-<!-- <a href="" target="_blank">
+<a href="https://arxiv.org/abs/2511.06653" target="_blank">
   <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper">
-</a> -->
+</a>
 </a>
 <a href="./LICENSE" target="_blank">
   <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License">
