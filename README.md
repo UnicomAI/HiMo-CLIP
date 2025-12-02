@@ -121,7 +121,7 @@ The majority of this project is released under the **Apache 2.0 license** as fou
 
 
 ## 📖 Citation
-If you find **LeMiCa** useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
+If you find **HiMo-CLIP** useful in your research or applications, please consider giving us a star ⭐ and citing it by the following BibTeX entry:
 
 ```bibtex
 @misc{wu2025himoclipmodelingsemantichierarchy,
