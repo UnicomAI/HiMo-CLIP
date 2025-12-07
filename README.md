@@ -116,6 +116,72 @@ Figure 3 visualizes HiMo@5 trends on HiMo-Docci, where HiMo-CLIP consistently ma
 ![Evaluation Figure 4](./static/images/eval_fig4.png)
 ![Evaluation Figure 5](./static/images/eval_fig5.png)
 
+## 📜 News
+🚀 [2025/12/7] We release the code of HiMo-CLIP and HiMo@K metric.
+🚀 [2025/11/8] Our paper has been accepted by ***AAAI2026 oral***.
+
+### Installation
+
+Our model is based on [Long-CLIP](https://github.com/beichenzbc/Long-CLIP), please prepare environment for Long-CLIP.
+
+
+### Inference
+First, please clone our repo:
+```shell
+git clone https://github.com/UnicomAI/HiMo-CLIP.git
+cd HiMo-CLIP
+```
+Then, please download the checkpoints of HiMo-CLIP at [huggingface](https://huggingface.co/5RJ/HiMo-CLIP) and put it into a proper directory, e.g., `./weights/`.
+
+```python
+from model import himo
+import torch
+from PIL import Image
+
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model, preprocess = himo.load("./weights/himo-clip_L.pt", device=device)
+
+text = himo.tokenize(["A corgi wearing sunglasses runs on the beach.", "A corgi chases after the flying leaves in autumn park."]).to(device)
+image = preprocess(Image.open("test_image.jpg")).unsqueeze(0).to(device)
+
+with torch.no_grad():
+    image_features = model.encode_image(image)
+    text_features = model.encode_text(text)
+    
+    logits_per_image = image_features @ text_features.T
+    probs = logits_per_image.softmax(dim=-1).cpu().numpy()
+
+print("Text probs:", probs) 
+```
+
+### Evaluation
+#### Retrieval
+Related scripts are putted into `eval/retrieval/`, but you need to modify the relate data path in the scripts.
+1. For the detail of Urban1k, COCO, Flickr30k, please refer to [Long-CLIP](https://github.com/beichenzbc/Long-CLIP) for dataset download.
+2. For Long-DCI, please refer to [TULIP](https://github.com/ivonajdenkoska/tulip) for dataset download.
+3. For DOCCI, please refer to [docci](https://google.github.io/docci/) for dataset download.
+
+#### HiMo@K
+First, modify the `image_root` in `eval/text_mono/get_himoK.py` to the path of your docci dataset.
+[HiMo-Docci] is in `eval/text_mono`, you can also download it from [huggingface](https://huggingface.co/5RJ/HiMo-Docci).
+
+```shell
+cd eval/text_mono
+# python get_himoK.py ${model_path} ${jobname}
+python get_himoK.py ./weights/himo-clip_L.pt himo-clip_L
+```
+
+### Training
+please refer to LongCLIP(https://github.com/beichenzbc/Long-CLIP) for training details, especially the training data prepration.
+
+```shell
+cd train/run_scripts
+bash run_train.sh 0,1,2,3,4,5,6,7 train_himo_L 2514
+```
+
+## Acknowledgement
+This project is based on [Long-CLIP](https://github.com/beichenzbc/Long-CLIP).
+
 ## License
 The majority of this project is released under the **Apache 2.0 license** as found in the [LICENSE](./LICENSE) file.
 
