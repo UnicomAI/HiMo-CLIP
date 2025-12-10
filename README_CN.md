@@ -17,6 +17,9 @@
     赵绍安<sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
+    <a href="https://github.com/kabutohui/" target="_blank">惠强</a><sup>1,2</sup>,&nbsp;
+  </span>
+  <span class="author-block">
     <a href="https://github.com/joelulu/" target="_blank">高焕霖</a><sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
