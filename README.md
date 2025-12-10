@@ -18,6 +18,9 @@
     Shaoan Zhao<sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
+    <a href="https://github.com/kabutohui/" target="_blank">Qiang Hui</a><sup>1,2</sup>,&nbsp; 
+  </span>
+  <span class="author-block">
     <a href="https://github.com/joelulu/" target="_blank">Huanlin Gao</a><sup>1,2</sup>,&nbsp;
   </span>
   <span class="author-block">
