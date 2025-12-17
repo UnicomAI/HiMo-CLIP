@@ -59,10 +59,13 @@
   <img src="https://img.shields.io/badge/Paper-PDF-critical.svg?logo=adobeacrobatreader" alt="Paper">
 </a>
 </a>
+<a href="https://huggingface.co/5RJ/HiMo-CLIP" target="_blank">
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue" alt="Hugging Face Model">
+</a>
 <a href="./LICENSE" target="_blank">
   <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License">
 </a>
-<a href="https://github.com/UnicomAI/LeMiCa/stargazers" target="_blank">
+<a href="https://github.com/UnicomAI/HiMo-CLIP/stargazers" target="_blank">
   <img src="https://img.shields.io/github/stars/UnicomAI/HiMo-CLIP.svg?style=social" alt="GitHub Stars">
 </a>
 </h5>
