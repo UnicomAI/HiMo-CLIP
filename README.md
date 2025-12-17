@@ -1,5 +1,6 @@
 
-📚English | <a href="./README_CN.md">📚中文阅读 </a> 
+<span>📚English  |   <a href="./README_CN.md">📚中文阅读 </a> &nbsp;  | &nbsp; <a href="https://mp.weixin.qq.com/s/M6yEgQA-iprEPS4LRX5xBg">量子位</a> 
+</span>
 
 
 # <img src="./static/images/logo.png" style="width:auto; height:35px;">[AAAI 2026 Oral] HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment
